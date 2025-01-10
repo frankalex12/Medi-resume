@@ -1,0 +1,155 @@
+/* .main-content{
+    height: 100vh;
+    background-image: url('../images/motif\ main\ container.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+} */
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.vertical-menu{
+    background-color: #1171A5 !important;
+    background-image: url('../images/Vector.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: 2.5vw 50vh !important;
+    color: white;
+}
+.navbar-brand-box{
+    background-color: #1171A5 !important;
+    border-bottom: 3px solid #2fd381;
+}
+.sidebar-menu>ul>li{
+    color: white !important;
+}
+.vertical-menu i,.menu-title{
+    color: white !important;
+
+}
+.metis:hover{
+    background-color: #2fd381 !important;
+}
+
+
+
+
+
+/* .main-content{
+    height: 100vh;
+    background-image: url('../images/motif\ main\ container.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+} */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.vertical-menu {
+    background-color: #1171A5 !important;
+    background-image: url('../images/Vector.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: 1vw 68vh !important;
+    color: white;
+}
+
+.navbar-brand-box {
+    background-color: #1171A5 !important;
+    border-bottom: 3px solid #2fd381;
+}
+
+.sidebar-menu>ul>li {
+    color: white !important;
+}
+
+.vertical-menu i,
+.menu-title {
+    color: white !important;
+
+}
+
+.metis:hover {
+    background-color: #2fd381 !important;
+}
+
+.metismenu li a svg {
+    margin-right: 8px;
+    margin-left: 3px;
+}
+
+.metismenu li {
+    margin-bottom: 20px;
+}
+
+.page-title {
+    color: #505050;
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 700;
+
+}
+
+.page-section-title {
+    color: rgba(80, 80, 80, 0.30);
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.hospital-name {
+    color: #1171A5;
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 700;
+    position: relative;
+}
+
+.hospital-name::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 12%;
+    background-color: rgba(17, 113, 165, 0.10);
+    width: 313px;
+    height: 20px;
+}
+
+.selectpicker {
+    border: 2px solid #1171A5;
+}
+
+.bloc-boutons {
+    margin-top: 40vh;
+
+}
+
+.btn-annuler {
+    display: inline-flex !important;
+    padding: 6px 31px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 6px !important;
+    background: #FF4343 !important;
+    color: #FFF !important;
+}
+
+.btn-ajouter {
+    border-radius: 6px !important;
+    background: #1171A5 !important;
+    display: inline-flex !important;
+    padding: 6px 31px !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    color: #FFF !important;
+}

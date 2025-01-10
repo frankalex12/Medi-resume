@@ -1,0 +1,387 @@
+/* .main-content{
+    height: 100vh;
+    background-image: url('../images/motif\ main\ container.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+} */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.vertical-menu {
+    background-color: #1171A5 !important;
+    background-image: url('../images/Vector.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: 1vw 68vh !important;
+    color: white;
+}
+
+.navbar-brand-box {
+    background-color: #1171A5 !important;
+    border-bottom: 3px solid #2fd381;
+}
+
+.sidebar-menu>ul>li {
+    color: white !important;
+}
+
+.vertical-menu i,
+.menu-title {
+    color: white !important;
+
+}
+
+.metis:hover {
+    background-color: #aadefa73 !important;
+}
+
+.metismenu li a svg {
+    margin-right: 8px;
+    margin-left: 3px;
+}
+
+.metismenu li {
+    margin-bottom: 20px;
+}
+
+.page-title {
+    color: #505050;
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 700;
+
+}
+
+.page-section-title {
+    color: rgba(80, 80, 80, 0.30);
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+/* debut 2 eme section */
+
+.principal-bloc {
+    border-radius: 10px;
+    border: 1px solid #A0C6DB;
+    background: #FFF;
+}
+
+
+
+.user-infos-bloc {
+    border-radius: 10px;
+    border: 1px solid #A0C6DB;
+    background: #F9FDFF;
+
+    height: 244px;
+}
+
+.patientpic-bloc {
+    border-radius: 11.718px;
+    background: #1171A5;
+    width: 151px;
+    height: 151px;
+    flex-shrink: 0;
+}
+
+.ps-name {
+    color: #1171A5;
+    font-size: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ps-id {
+    color: #4F96BC;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ps-specialities {
+    color: #4F96BC;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ps-status {
+    color: #2FD381;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ps-info-title {
+    color: #797979;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.modifier-profil-medical {
+    width: 230px;
+    height: 45px;
+    border-radius: 9px;
+    background: rgba(17, 113, 165, 0.06);
+    border: none;
+}
+
+.btn-title {
+    color: #1171A5 !important;
+    font-size: 14px !important;
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+}
+
+.info-title {
+    color: #1171A5;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.info-value {
+    color: #8A8A8A;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav-links-bloc {
+    text-align: center;
+
+    flex-shrink: 0;
+    background: #1171A5;
+}
+
+.nav-link.active-nav-link {
+    color: #2FD381 !important;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* fin 2eme section */
+
+/* debut 3eme section */
+
+.conteneur-parametres-generaux {}
+
+/* .ajout-documents {
+    background-color: #1171a500;
+    border: none;
+}
+
+.more-options-btn {
+    background-color: #1171a500;
+    border: none;
+} */
+
+
+.file-name {
+    color: #797979;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.file-value {
+    color: #1171A5;
+    text-align: right;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.voir-plus-link {
+    color: rgba(17, 113, 165, 0.70);
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.patientsnameandmail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.consultations-info-title {
+    display: block;
+    color: #BBB;
+    font-size: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.consultations-info-value {
+    display: block;
+    color: #8A8A8A;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* fin 3eme section */
+
+@media (max-width: 920px) {
+
+    .file-value {
+        display: flex;
+        text-align: left;
+        width: 300px;
+        flex-wrap: wrap !important;
+    }
+
+    .ps-infos-group{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .ps-info-title{
+        text-align: start;
+    }
+
+    .user-profile-bloc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto 0px !important;
+        padding: auto 0px !important;
+    
+    }
+
+    .patientpic-bloc {
+        margin-bottom: 40px;
+    }
+
+    .bloc-profil-medical {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .patientsnameandmail {
+        margin-bottom: 10px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .user-infos-grp {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile-infos-bloc {
+        text-align: center;
+    }
+
+    .conteneur-documents {
+        margin-bottom: 50px;
+    }
+
+    .consultaion-elt {
+        text-align: center;
+        border-bottom: 1px solid #5050501d;
+        padding-bottom: 10px;
+    }
+
+    .consultaion-elt:nth-child(1) {
+        margin-bottom: 15px !important;
+    }
+
+    .consultaion-elt:nth-child(2) {
+        margin-bottom: 15px !important;
+    }
+
+    .consultations-infos-grp {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px !important;
+    }
+
+    .ps-infos-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .principal-bloc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1169px) {
+    .ps-infos-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .conteneur-infos-générales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .en-tete-consultations {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .en-tete-documents {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

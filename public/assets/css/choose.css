@@ -1,0 +1,52 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.content-bloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around !important;
+
+}
+
+.main-bloc{
+    height: 80vh;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+
+.bloc-logo{
+
+    margin-top: 0px;
+    margin-bottom: 100px;
+
+}
+
+.status-title{
+    color: #1280BD;
+    font-size: 18px !important;
+}
+
+.status_cardButton{
+    background-color: #caecff35;
+    border: 1px solid #caecff;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box !important;
+}
+
+.status_cardButton:hover{
+
+    border: 3px solid #159FED;
+}

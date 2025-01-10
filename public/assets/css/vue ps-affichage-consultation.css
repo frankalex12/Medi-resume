@@ -1,0 +1,157 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.vertical-menu {
+    background-color: #1171A5 !important;
+    background-image: url('../images/Vector.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: 1vw 68vh !important;
+    color: white;
+}
+
+.navbar-brand-box {
+    background-color: #1171A5 !important;
+    border-bottom: 3px solid #2fd381;
+}
+
+.sidebar-menu>ul>li {
+    color: white !important;
+}
+
+.vertical-menu i,
+.menu-title {
+    color: white !important;
+
+}
+
+.metis:hover {
+    background-color: #aadefa73 !important;
+}
+
+.metismenu li a svg {
+    margin-right: 8px;
+    margin-left: 3px;
+}
+
+.metismenu li {
+    margin-bottom: 20px;
+}
+
+.page-title {
+    color: #505050;
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 700;
+
+}
+
+.page-section-title {
+    color: rgba(80, 80, 80, 0.30);
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+/* debut 2 eme section */
+
+.bloc-consultation {
+    width: 676px;
+    border-radius: 39px;
+    border: 1px solid #A0C6DB;
+    background: #FFF;
+}
+
+.title-area {
+    border-bottom: 2px solid rgba(17, 113, 165, 0.80);
+}
+
+.titre {
+    color: #1171A5;
+    font-size: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.consultation-infos-value {
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    background: rgba(235, 244, 250, 0.70);
+    height: 38px;
+    color: #155476;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.consultation-infos-title {
+    color: #1171A5;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+}
+
+.form-label-2 {
+    color: #1171A5;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.form-control {
+    border-radius: 3px !important;
+    border: 1px solid rgba(21, 159, 237, 0.60) !important;
+    background: #EBF4FA !important;
+}
+
+::placeholder {
+    color: rgba(17, 113, 165, 0.25) !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    font-size: 14px !important;
+}
+
+.champ-motif::placeholder {
+    font-size: 16px !important;
+}
+
+
+
+.anamnese{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    min-height: 74px;
+}
+
+
+
+.btn-validation {
+    width: 222px !important;
+    height: 33px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 6px !important;
+    background: #1171A5 !important;
+    color: #FFF !important;
+    font-size: 14px !important;
+    font-family: Poppins;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal;
+
+}

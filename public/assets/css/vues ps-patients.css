@@ -1,0 +1,283 @@
+/* .main-content{
+    height: 100vh;
+    background-image: url('../images/motif\ main\ container.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+} */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.vertical-menu {
+    background-color: #1171A5 !important;
+    background-image: url('../images/Vector.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: 1vw 68vh !important;
+    color: white;
+}
+
+.navbar-brand-box {
+    background-color: #1171A5 !important;
+    border-bottom: 3px solid #2fd381;
+}
+
+.sidebar-menu>ul>li {
+    color: white !important;
+}
+
+.vertical-menu i,
+.menu-title {
+    color: white !important;
+
+}
+
+.metis:hover {
+    background-color: #aadefa73 !important;
+}
+
+.metismenu li a svg {
+    margin-right: 8px;
+    margin-left: 3px;
+}
+
+.metismenu li {
+    margin-bottom: 20px;
+}
+
+.page-title {
+    color: #505050;
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 700;
+
+}
+
+.page-section-title {
+    color: rgba(80, 80, 80, 0.30);
+    font-size: 28px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+/* debut 2 eme section */
+
+.second-section {
+    border-radius: 10px;
+    border: 1px solid #A0C6DB;
+    background: #F9FDFF;
+}
+
+.user-infos-bloc {
+    border-radius: 10px;
+    border: 1px solid #A0C6DB;
+    background: #F9FDFF;
+
+    height: 244px;
+}
+
+.patientpic-bloc {
+    border-radius: 8px;
+    background: #1171A5;
+    width: 71px;
+    height: 71px;
+    flex-shrink: 0;
+}
+
+.patient-name {
+    color: #505050;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.patient-mail {
+    color: #B3B3B3;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.profil-medical {
+    width: 197px;
+    height: 45px;
+    border-radius: 9px;
+    background: rgba(17, 113, 165, 0.06);
+    border: none;
+}
+
+.btn-title {
+    color: #1171A5 !important;
+    font-size: 14px !important;
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+}
+
+.info-title {
+    color: #1171A5;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.info-value {
+    color: #8A8A8A;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* fin 2eme section */
+
+/* debut 3eme section */
+
+.conteneur-documents {
+    border-radius: 10px;
+    border: 1px solid #A0C6DB;
+    background: #F9FDFF;
+}
+
+.ajout-documents {
+    background-color: #1171a500;
+    border: none;
+}
+
+.more-options-btn {
+    background-color: #1171a500;
+    border: none;
+}
+
+.file-name {
+
+    color: #8A8A8A;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.voir-plus-link {
+    color: rgba(17, 113, 165, 0.70);
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.conteneur-consultations {
+    border-radius: 10px;
+    border: 1px solid #A0C6DB;
+    background: #F9FDFF;
+}
+
+.consultations-info-bloc {}
+
+.consultations-info-title {
+    display: block;
+    color: #BBB;
+    font-size: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.consultations-info-value {
+    display: block;
+    color: #8A8A8A;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* fin 3eme section */
+
+@media (max-width: 768px) {
+
+    .user-profile-bloc{
+        
+       
+    }
+    
+    .patientpic-bloc{
+        margin-bottom: 40px;
+    }
+
+    .bloc-profil-medical{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .user-infos-grp{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile-infos-bloc{
+      text-align: center;
+    }
+
+    .conteneur-documents{
+        margin-bottom: 50px;
+    }
+
+    .consultaion-elt{
+        text-align: center;
+        border-bottom: 1px solid #5050501d;
+        padding-bottom: 10px;
+    }
+
+    .consultaion-elt:nth-child(1){
+        margin-bottom: 15px !important;
+    }
+
+    .consultaion-elt:nth-child(2){
+        margin-bottom: 15px !important;
+    }
+
+    .consultations-infos-grp{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px !important;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .en-tete-consultations{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .en-tete-documents{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
